@@ -1,59 +1,59 @@
 package com.ti2cc;
 
 public class Usuario {
-	private int codigo;
-	private String login;
-	private String senha;
-	private char sexo;
-	
-	public Usuario() {
-		this.codigo = -1;
-		this.login = "";
-		this.senha = "";
-		this.sexo = '*';
-	}
-	
-	public Usuario(int codigo, String login, String senha, char sexo) {
-		this.codigo = codigo;
-		this.login = login;
-		this.senha = senha;
-		this.sexo = sexo;
-	}
+    private int codigo;
+    private String login;
+    private String senha;
+    private char sexo;
 
-	public int getCodigo() {
-		return codigo;
-	}
+    public Usuario() {
+        this.codigo = -1;
+        this.login = "";
+        this.senha = "";
+        this.sexo = '*';
+    }
 
-	public void setCodigo(int codigo) {
-		this.codigo = codigo;
-	}
+    public Usuario(int codigo, String login, String senha, char sexo) {
+        this.codigo = codigo;
+        this.login = login;
+        this.senha = senha;
+        this.sexo = sexo;
+    }
 
-	public String getLogin() {
-		return login;
-	}
+    public int getCodigo() {
+        return codigo;
+    }
 
-	public void setLogin(String login) {
-		this.login = login;
-	}
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 
-	public String getSenha() {
-		return senha;
-	}
+    public String getLogin() {
+        return login;
+    }
 
-	public void setSenha(String senha) {
-		this.senha = senha;
-	}
+    public void setLogin(String login) {
+        this.login = login;
+    }
 
-	public char getSexo() {
-		return sexo;
-	}
+    public String getSenha() {
+        return senha;
+    }
 
-	public void setSexo(char sexo) {
-		this.sexo = sexo;
-	}
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
 
-	@Override
-	public String toString() {
-		return "Usuario [codigo=" + codigo + ", login=" + login + ", senha=" + senha + ", sexo=" + sexo + "]";
-	}	
+    public char getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(char sexo) {
+        this.sexo = sexo;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario [codigo=" + codigo + ", login=" + login + ", senha=" + senha + ", sexo=" + sexo + "]";
+    }
 }
